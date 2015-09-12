@@ -4,7 +4,7 @@ An attempt to rewrite the `kdesrc-build` script into Python.
 
 # Requirements
 
-- `Python` `>=` `3`
+- `Python` `>=` `3.4`
 - `virtualenv`
 
 # Setup
@@ -23,6 +23,10 @@ An attempt to rewrite the `kdesrc-build` script into Python.
         -h --help           Show this screen.
         --version           Show version.
     """
+
+Exemple:
+
+    ./kdesrc-build.py extra-cmake-modules
 
 # Done
 
